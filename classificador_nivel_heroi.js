@@ -2,6 +2,7 @@ let nomeHeroi = prompt("Digite o nome do herói:");
 let nivelHeroi = 5000;
 let classificacaoHeroi = ""
 
+console.log("___SISTEMA DE CLASSIFICAÇÃO DE HEROI___")
 switch (true) {
     case (nivelHeroi <= 1000):
         classificacaoHeroi = "Ferro";
